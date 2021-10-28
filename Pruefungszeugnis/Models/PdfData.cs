@@ -18,8 +18,8 @@ namespace Pruefungszeugnis.Models
         /// <remarks>
         /// Declare as nullable, since default value in forms is 0 if empty.
         /// </remarks>
-        [Required(ErrorMessage = "Bitte geben Sie den Kalium wert an.")]
-        [Range(1,9999, ErrorMessage = "Bitte geben Sie den Kalium wert an.")]
+        [Required(ErrorMessage = "Bitte geben Sie den Stickstoff wert an.")]
+        [Range(1,9999, ErrorMessage = "Bitte geben Sie den Stickstoff wert an.")]
         public double? Azotic { get; set; }
 
         /// <summary>
@@ -28,8 +28,8 @@ namespace Pruefungszeugnis.Models
         /// <remarks>
         /// Declare as nullable, since default value in forms is 0 if empty.
         /// </remarks>
-        [Required(ErrorMessage = "Bitte geben Sie den Stickstoff wert an.")]
-        [Range(1, 9999, ErrorMessage = "Bitte geben Sie den Stickstoff wert an.")]
+        [Required(ErrorMessage = "Bitte geben Sie den Kalium wert an.")]
+        [Range(1, 9999, ErrorMessage = "Bitte geben Sie den Kalium wert an.")]
         public double? Potassium { get; set; }
 
         public double PricePerTon => 
