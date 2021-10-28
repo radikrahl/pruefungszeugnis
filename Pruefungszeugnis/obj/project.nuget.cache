@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "KkuWOwEY5v68dKfeggG0KNVCuBbEOO00Du9EHsvxTH6FbWHUyVeggtX3tgAe1DVllNBz/wDu/3jtX8TcZGoFXw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andi\\_dev\\BGK\\Pruefungszeugnis\\Pruefungszeugnis\\Pruefungszeugnis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andi\\.nuget\\packages\\pdfsharpcore\\1.3.7\\pdfsharpcore.1.3.7.nupkg.sha512",
+    "C:\\Users\\andi\\.nuget\\packages\\sixlabors.fonts\\1.0.0-beta0013\\sixlabors.fonts.1.0.0-beta0013.nupkg.sha512",
+    "C:\\Users\\andi\\.nuget\\packages\\sixlabors.imagesharp\\1.0.0\\sixlabors.imagesharp.1.0.0.nupkg.sha512",
+    "C:\\Users\\andi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\andi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.0\\system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

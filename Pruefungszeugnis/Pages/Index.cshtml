@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="form__wrapper col-md-6" style="margin: 0 auto">
+    <form method="post">
+        <fieldset>
+            <legend>Prüfungszeugnis beantragen</legend>
+            <div class="form-group">
+                <label asp-for="PdfData.CompanyName">Name:</label>
+                <input asp-for="PdfData.CompanyName" type="text" class="form-control" value="" placeholder="Name" />
+                <span asp-validation-for="PdfData.CompanyName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PdfData.Potassium">Kalium:</label>
+                <input asp-for="PdfData.Potassium" type="number" class="form-control" value="" placeholder="Kalium (in kg/t)" />
+                <span asp-validation-for="PdfData.Potassium" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PdfData.Azotic">Stickstoff:</label>
+                <input asp-for="PdfData.Azotic" type="number" class="form-control" value="" placeholder="Stickstoff (in kg/t)" />
+                <span asp-validation-for="PdfData.Azotic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit" class="submit btn btn-primary" />
+            </div>
+        </fieldset>
+    </form>
+</div>
